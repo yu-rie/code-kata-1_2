@@ -1,7 +1,7 @@
 'use strict';
 function moveon(){
     // ユーザーに質問するためのモーダルダイヤログを表示する。
-    var answer = confirm("Ready to move on?　(1分まってね)");
+    var answer = confirm("Ready to move on? (googleに飛ぶよ)");
 
     // 「OK」ボタンを押したら，ブラウザに新しいページを読み込む。
     if (answer) window.location = "http://google.com";
